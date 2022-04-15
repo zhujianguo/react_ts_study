@@ -22,7 +22,7 @@ module: {
 },
 plugins: [
     new HtmlWebpackPlugin({
-        template: './src/tpl/index.html'
+        template: './src/xgs/index.html'
     })
 ],
 optimization: {
