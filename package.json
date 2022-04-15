@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/zhujianguo/react_ts_study#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
     "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^9.2.8",
