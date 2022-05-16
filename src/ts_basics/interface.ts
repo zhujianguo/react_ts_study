@@ -56,7 +56,7 @@ render(<Result>{
 interface Lists {
     ids: number;
     names: string;
-    [ss:string]: any; // 扩张其他任意属性（使用场景：当你不确定有多少属性的时候，就可以用可索引的签名接口定义数据模型）
+    [index:string]: any; // 扩张其他任意属性（使用场景：当你不确定有多少属性的时候，就可以用可索引的签名接口定义数据模型）
 };
 
 interface Results {
